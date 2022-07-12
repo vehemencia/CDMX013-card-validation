@@ -1,13 +1,7 @@
-#### Circuiticket
+#Circuiticket
 
-Debe contener lo siguiente:
+Los usuarios de Circuiticket son aquellas personas que desean adquirir boletos para algún concierto, fiesta o espectáculo que se lleve a cabo en el Foro Bajo Circuito, pues todos los eventos que se realicen en el recinto estarán agrupados en su sitio web y podrán comprarlos desde allí, sin necesidad de dirigírse a páginas externas o algúna locación física.
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
   3. Luego colocarás la foto de tu primer prototipo en papel.

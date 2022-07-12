@@ -1,0 +1,27 @@
+header {
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 120px;
+}
+
+body {
+    background-color: #303030;
+}
+
+#ticketScreen {
+    margin: auto;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2 {
+    font-size: 38px ;
+    font: arial;
+}
+
+footer {
+    text-align: center;
+}

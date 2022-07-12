@@ -2,22 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Circuiticket</title>
+    <title>CIRCUITICKET</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <header>CIRCUITICKET</header>
     <main>
-      <center>
-        <h1>¡Ya casi tienes tus boletos!</h1>
-        <p>Para proceder con tu compra, ayúdanos a verificar tu método de pago.</p>
+        <section id="ticketScreen">
+        <h2>¡Ya casi tienes tus boletos!</h2>
+        <p><strong>Para proceder con tu compra, ayúdanos a verificar tu método de pago.</strong></p>
         <p>Ingresa tus datos tal y como aparecen en tu tarjeta.</p>
         Nombre(s)*: <input type="text" placeholder="Nombre(s)"> Apellido(s)*: <input type="text" placeholder="Apellido(s)">
-        <p>Número de la tarjeta: <input type="password" placeholder="Ingresa los 16 dígitos de tu tarjeta"></p>
+        <p>Número de la tarjeta*:<br>
+        <input type="text" placeholder="Ingresa los 16 dígitos" id="cardPlasticNumber"></p>
+        <p>* Todos los campos son obligatorios</p>
+        <p><input type="checkbox"> Al hacer clic en esta casilla reconozco que la tarjeta a validar me pertenece</p>
         <button>Continuar</button>
-      </center>
+      </section>
     </main>
-    <footer></footer>
+    <footer> n_n </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
