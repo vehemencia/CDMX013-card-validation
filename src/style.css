@@ -2,6 +2,7 @@ header {
     background-color: #000000;
     text-align: center;
     color: white;
+    font-family: 'Dosis', sans-serif;
     font-weight: 800;
     font-size: 120px;
 }
@@ -12,16 +13,31 @@ body {
 
 #ticketScreen {
     margin: auto;
-    background-color: #ffffff;
     box-sizing: border-box;
+    border-radius: 35px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    width: 660px;
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-h2 {
+h1 {
     font-size: 38px ;
-    font: arial;
+    font-family: 'Dosis', sans-serif;
+}
+
+h4 {
+    font-size: 15px ;
+    font-family: Helvetica Light, Arial, sans-serif;
+}
+
+#forumImg {
+    width: 250px;
+    height: auto;
 }
 
 footer {
     text-align: center;
+    color: #ffffff;
 }
