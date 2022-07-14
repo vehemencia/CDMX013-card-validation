@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>CIRCUITICKET</header>
@@ -15,19 +15,19 @@
         <h1>¡Ya casi tienes tus boletos!</h1>
         <p><strong>Para proceder con tu compra, ayúdanos a verificar tu método de pago.</strong></p>
         <p>Ingresa tus datos tal y como aparecen en tu tarjeta.</p>
-        Nombre(s)*: <input type="text" id="firstname" placeholder="Nombre(s)"> Apellido(s)*: <input type="text" id="secondname" placeholder="Apellido(s)">
+        Nombre(s)*: <input type="text" id="firstname" placeholder="Nombre(s)" required> Apellido(s)*: <input type="text" id="secondname" placeholder="Apellido(s)" required>
         <p>Número de la tarjeta*:<br>
         <br>
-        <input type="text" id="cardPlasticNumber" placeholder="Ingresa los 16 dígitos al frente" style="width: 300px;" maxlength="16"></p>
+        <input type="text" id="plasticNumber" style="width: 300px;" maxlength="16" placeholder="Ingresa los 16 dígitos al frente" required></p>
         <p>* Todos los campos son obligatorios</p>
-        <p><input type="checkbox"> Al hacer clic en esta casilla reconozco que la tarjeta a validar me pertenece</p>
+        <p><input type="checkbox"> Al hacer clic en esta casilla reconozco que soy propietarix de esta tarjeta</p>
         <p><input type="checkbox"> Acepto los <a href="https://tinyurl.com/2p8z44cj" title="Puedes saber más sobre cómo funcionan si das clic aquí" target="_blank">Términos y Condiciones</a></p>
         <button id="continueButton">Continuar</button>
       </section>
     </main>
     <footer>
       <img src="https://i.postimg.cc/qRMmW7rC/bc.png" id="forumImg"><br>
-      <h4>Proyecto desarrollado para Laboratoria, no está afiliado directamente con BCMU.<br>
+      <h4>Proyecto desarrollado para Laboratoria, no está afiliado directamente con MUBC.<br>
       2022. </h4>
     </footer>
     <script src="index.js" type="module"></script>

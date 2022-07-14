@@ -1,3 +1,10 @@
-import validator from './validator.js';
+//import validator from './validator.js';
 
-console.log(validator);
+let continueBtn = document.getElementById("continueButton");
+
+continueBtn.addEventListener("click", function trialError() {
+    alert('n_n')
+} );
+
+
+//console.log(validator);

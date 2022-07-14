@@ -3,33 +3,43 @@ header {
     text-align: center;
     color: white;
     font-family: 'Dosis', sans-serif;
-    font-weight: 800;
     font-size: 120px;
+    margin-bottom: 80px;
 }
 
 body {
+    margin: 0px;
     background-color: #303030;
+    font-family: 'Lato', sans-serif;
 }
 
 #ticketScreen {
     margin: auto;
     box-sizing: border-box;
-    border-radius: 35px;
+    border-radius: 30px;
     background-color: #ffffff;
     padding-bottom: 10px;
     width: 660px;
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+}
+
+#continueButton {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    border-radius: 60px;
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    font-size: 38px ;
-    font-family: 'Dosis', sans-serif;
+    font-size: 38px;
 }
 
 h4 {
-    font-size: 15px ;
-    font-family: Helvetica Light, Arial, sans-serif;
+    font-size: 15px;
 }
 
 #forumImg {
@@ -38,6 +48,7 @@ h4 {
 }
 
 footer {
+    padding-top: 70px;
     text-align: center;
     color: #ffffff;
 }
