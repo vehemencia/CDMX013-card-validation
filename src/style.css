@@ -42,6 +42,16 @@ h4 {
     font-size: 15px;
 }
 
+#obtainedResult {
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    width: 660px;
+    text-align: center;
+}
+
 #forumImg {
     width: 250px;
     height: auto;

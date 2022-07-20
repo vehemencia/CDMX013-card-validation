@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>CIRCUITICKET</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Lato&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header>CIRCUITICKET</header>
-    <main>
-        <section id="ticketScreen">
-        <h1>¡Ya casi tienes tus boletos!</h1>
-        <p><strong>Para proceder con tu compra, ayúdanos a verificar tu método de pago.</strong></p>
-        <p>Ingresa tus datos tal y como aparecen en tu tarjeta.</p>
-        Nombre(s)*: <input type="text" id="firstname" placeholder="Nombre(s)" required> Apellido(s)*: <input type="text" id="secondname" placeholder="Apellido(s)" required>
+
+<head>
+  <meta charset="utf-8">
+  <title>CIRCUITICKET</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>CIRCUITICKET</header>
+  <main>
+    <section id="ticketScreen">
+      <h1>¡Ya casi tienes tus boletos!</h1>
+      <p><strong>Para proceder con tu compra, ayúdanos a verificar tu método de pago.</strong></p>
+      <p><em>Ingresa tus datos tal y como aparecen en tu tarjeta.</em></p>
+      <form id="formOne">
+        Nombre(s)*: <input type="text" name="birthData" id="firstname" placeholder="Nombre(s)" required> Apellido(s)*:
+        <input type="text" name="birthData" id="surname" placeholder="Apellido(s)" required>
         <p>Número de la tarjeta*:<br>
-        <br>
-        <input type="text" id="plasticNumber" style="width: 300px;" maxlength="16" placeholder="Ingresa los 16 dígitos al frente" required></p>
+          <br>
+          <input type="text" name="cardNum" id="plasticNumber" style="width: 300px;" minlength="16" maxlength="16"
+            placeholder="Ingresa los 16 dígitos al frente" pattern="[0-9]+" required>
+        </p>
         <p>* Todos los campos son obligatorios</p>
-        <p><input type="checkbox"> Al hacer clic en esta casilla reconozco que soy propietarix de esta tarjeta</p>
-        <p><input type="checkbox"> Acepto los <a href="https://tinyurl.com/2p8z44cj" title="Puedes saber más sobre cómo funcionan si das clic aquí" target="_blank">Términos y Condiciones</a></p>
-        <button id="continueButton">Continuar</button>
-      </section>
-    </main>
-    <footer>
-      <img src="https://i.postimg.cc/qRMmW7rC/bc.png" id="forumImg"><br>
-      <h4>Proyecto desarrollado para Laboratoria, no está afiliado directamente con MUBC.<br>
+        <p><input type="checkbox" name="bankData"> Al hacer clic en esta casilla reconozco que soy propietarix
+          de esta tarjeta</p>
+        <p><input type="checkbox" name="bankData" required> Acepto los <a href="https://tinyurl.com/2p8z44cj"
+            title="Puedes saber más sobre cómo funcionan si das clic aquí" target="_blank">Términos y Condiciones</a>
+        </p>
+        <button type="submit" id="continueButton">Continuar</button>
+      </form>
+    </section>
+    <section id="resultScreen" style="display: none;">
+      <p id="cardValues">:)</p>
+      <p id="isItValid">0:</p>
+    </section>
+  </main>
+  <footer>
+    <img src="https://i.postimg.cc/qRMmW7rC/bc.png" id="forumImg"><br>
+    <h4>Proyecto desarrollado para Laboratoria, no está afiliado directamente con MUBC.<br>
       2022. </h4>
-    </footer>
-    <script src="index.js" type="module"></script>
-  </body>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
