@@ -5,12 +5,12 @@ let buyingTickets = document.getElementById("ticketScreen");
 let obtainingTicketResults = document.getElementById("resultScreen");
 let cardValue = document.getElementById("cardValues");
 let letMeKnow = document.getElementById("isItValid");
-let accessToData = document.getElementById("formOne");
+//let accessToData = document.getElementById("formOne");
 
 function showingValid(creditCardNumber) {
   if (validator.isValid(creditCardNumber)) {
     true;
-    return "Muchas gracias, tu tarjeta es válida. ¡Que te diviertas!";
+    return "Muchas gracias, tu tarjeta es válida. ¡Diviértete!";
   } else {
     return "Lo sentimos, tu tarjeta no es válida, intenta nuevamente";
   }

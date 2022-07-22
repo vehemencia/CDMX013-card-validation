@@ -54,7 +54,12 @@ h4 {
 }
 
 #cardValues {
-    font-size: 40px;
+    font-size: 30px;
+}
+
+#isItValid {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
 }
 
 #forumImg {
