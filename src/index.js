@@ -1,19 +1,27 @@
-//import validator from './validator.js';
+import validator from './validator.js';
 
 let continueToValid = document.getElementById("continueButton");
-let firstResults = document.getElementById("resultScreen");
-//let accessToData = document.getElementById("formOne");
+let buyingTickets = document.getElementById("ticketScreen");
+let obtainingTicketResults = document.getElementById("resultScreen");
+let cardValue = document.getElementById("cardValues");
+let letMeKnow = document.getElementById("isItValid");
+let accessToData = document.getElementById("formOne");
 
-continueToValid.addEventListener("click", function firstEvent() {
-  let numbersInCard = document.getElementById("plasticNumber").value; // .value se encarga de capturar el valor ingresado en la caja
-  console.log(numbersInCard);
-  let individualNumber = numbersInCard.split("");
-  console.log(individualNumber);
-  console.log(typeof individualNumber);
-  let reversedNumbers = individualNumber.reverse(); // .reverse() se encarga de invertir los valores
-  console.log(reversedNumbers);
-  console.log(typeof reversedNumbers);
+function showingValid(creditCardNumber) {
+  if (validator.isValid(creditCardNumber)) {
+    true;
+    return "Muchas gracias, tu tarjeta es válida. ¡Que te diviertas!";
+  } else {
+    return "Lo sentimos, tu tarjeta no es válida, intenta nuevamente";
+  }
 }
-)
 
-//console.log(validator);
+continueToValid.addEventListener("click", ()=> {
+  let creditCardNumber = document.getElementById("plasticNumber").value; // .value se encarga de capturar el valor ingresado en la caja
+  buyingTickets.style = "display: none";
+  obtainingTicketResults.style = "display: block";
+  cardValue.innerHTML = "Ingresaste la tarjeta " + validator.maskify(creditCardNumber);
+  letMeKnow.innerHTML = showingValid(creditCardNumber);
+})
+
+console.log(validator);

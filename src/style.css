@@ -42,14 +42,19 @@ h4 {
     font-size: 15px;
 }
 
-#obtainedResult {
+#resultScreen {
     margin: auto;
     box-sizing: border-box;
     border-radius: 30px;
     background-color: #ffffff;
     padding-bottom: 10px;
+    padding-top: 10px;
     width: 660px;
     text-align: center;
+}
+
+#cardValues {
+    font-size: 40px;
 }
 
 #forumImg {
