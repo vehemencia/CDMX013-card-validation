@@ -15,13 +15,12 @@
       <h1>¡Ya casi tienes tus boletos!</h1>
       <p><strong>Para proceder con tu compra, ayúdanos a verificar tu método de pago.</strong></p>
       <p><em>Ingresa tus datos tal y como aparecen en tu tarjeta.</em></p>
-      <form id="formOne">
-        Nombre(s)*: <input type="text" name="birthData" id="firstname" placeholder="Nombre(s)" required> Apellido(s)*:
-        <input type="text" name="birthData" id="surname" placeholder="Apellido(s)" required>
+        Nombre(s)*: <input type="text" name="birthData" id="firstname" placeholder="Nombre(s)"> Apellido(s)*:
+        <input type="text" name="birthData" id="surname" placeholder="Apellido(s)">
         <p>Número de la tarjeta*:<br>
           <br>
           <input type="text" name="cardNum" id="plasticNumber" style="width: 300px;" minlength="16" maxlength="16"
-            placeholder="Ingresa los 16 dígitos al frente" pattern="[0-9]+" required>
+            placeholder="Ingresa los 16 dígitos al frente">
         </p>
         <p>* Todos los campos son obligatorios</p>
         <p><input type="checkbox" name="bankData"> Al hacer clic en esta casilla reconozco que soy propietarix
@@ -29,8 +28,7 @@
         <p><input type="checkbox" name="bankData" required> Acepto los <a href="https://tinyurl.com/2p8z44cj"
             title="Puedes saber más sobre cómo funcionan si das clic aquí" target="_blank">Términos y Condiciones</a>
         </p>
-        <button type="submit" id="continueButton">Continuar</button>
-      </form>
+        <button type="button" id="continueButton">Continuar</button>
     </section>
     <section id="resultScreen" style="display: none;">
       <p id="cardValues">:)</p>
@@ -38,9 +36,9 @@
     </section>
   </main>
   <footer>
-    <img src="https://i.postimg.cc/qRMmW7rC/bc.png" id="forumImg"><br>
+    <img src="https://i.postimg.cc/qRMmW7rC/bc.png" id="forumImg">
     <h4>Proyecto desarrollado para Laboratoria, no está afiliado directamente con MUBC.<br>
-      2022. </h4>
+    2022. </h4>
   </footer>
   <script src="index.js" type="module"></script>
 </body>

@@ -6,7 +6,7 @@ const validator = {
         //console.log(individualNumber);
         let reversedNumbers = individualNumber.reverse(); // .reverse() se encarga de invertir los valores
         console.log(reversedNumbers);
-        let numbersInNewPosition = reversedNumbers;
+        const numbersInNewPosition = reversedNumbers;
         for (let counting = 0; counting < numbersInNewPosition.length; counting++) {
             if (counting % 2 !== 0) { // Obtener los números pares
                 let evenNumbers = (numbersInNewPosition[counting] * 2); // los números pares se multiplican por 2
@@ -24,10 +24,10 @@ const validator = {
         }
         console.log(totalValue);
         if (totalValue % 10 === 0) {
-            console.log(true);
+            //console.log(true);
             return true;
         } else {
-            console.log(false)
+            //console.log(false)
             return false;
         }
     }

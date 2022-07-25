@@ -35,7 +35,8 @@ body {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 40px;
+    padding-top: 20px;
 }
 
 h4 {
@@ -65,6 +66,7 @@ h4 {
 #forumImg {
     width: 250px;
     height: auto;
+    padding-bottom: 10px;
 }
 
 footer {
