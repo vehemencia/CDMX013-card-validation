@@ -16,3 +16,8 @@ Después, fue necesario crear un prototipo en Figma.
 ![prototipo realizado en figma](images\prototipo-figma.PNG)
 
 En ambos casos, se recbió _feedback_ por parte de las compañeras del bootcamp. Algunas de las observaciones realizadas fueron hacer que ocupara menos espacio (cuando se mostró el espaciado en papel), cambiar el tipo de fuente del header para que estuviera más en línea con el branding del Foro, así como reducir el texto en el pie de página, al cual se añadió también el logotipo del lugar.  
+
+Al final quedó de la siguiente manera. 
+![projecto final](images\final.PNG)
+![tarjeta válida](images\valid.PNG)
+![tarjeta no válida](images\not-valid.PNG)
