@@ -63,6 +63,31 @@ h4 {
     font-size: 30px;
 }
 
+#restartButton {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 60px;
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+
+#getOutButton {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    border-radius: 60px;
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+    margin:auto;
+}
+
 #forumImg {
     width: 250px;
     height: auto;
